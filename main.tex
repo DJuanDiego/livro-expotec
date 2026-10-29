@@ -1,0 +1,35 @@
+% ========== Importação da classe que define as medidas do papel, linha, espaçamento etc ==========
+\input{12pt.tex}
+
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref} % Links internos e externos
+
+% ========== Corpo do documento (código original sem alteração) ==========
+\setmainfont{FreeSerif}[Ligatures={NoCommon, NoContextual, NoRequired}] % Remover ligaduras
+
+\begin{document}
+\sloppy % Sem hifenização
+\TextColor % Cor preta
+\frenchspacing % Espaço menor após pontuação
+\vfill\eject
+
+\frontmatter
+\input{src/capa}
+% \clearpage
+
+% Sumário Funcional
+\settocdepth{chapter}
+\pagestyle{empty}
+{
+\tableofcontents*
+}
+\thispagestyle{empty}
+%	\clearpage
+
+\mainmatter
+\pagestyle{plain}
+
+\phantomsection
+\input{src/example.tex}
+%\input{src/01.tex}
+
+\end{document}

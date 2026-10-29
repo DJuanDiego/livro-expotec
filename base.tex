@@ -1,0 +1,71 @@
+\RequirePackage{fontspec}
+%\setmainfont{Latin Modern Roman}
+\usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
+\usepackage[babel,final]{microtype} % Justificação (compilação final)
+\usepackage[cmyk]{xcolor} % Cores cmyk (impressão)
+\usepackage[default]{fontsetup}
+\usepackage[none]{hyphenat} % Remover hifenizações
+\usepackage[useregional]{datetime2} % Data no formato do idioma do documento
+
+\usepackage{calc, parselines} % Símbolos matemáticos simples e processamento do texto 13/06/2026
+\usepackage{csquotes, unicode-math}
+
+\usepackage{etoolbox} % for \ifstrempty e final dos livros.
+\usepackage{setspace} % Espaçamento entre linhas
+\usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
+\usepackage{geometry, multicol} % dimensões, colunas
+\usepackage{hologo, url} % TeX logos e urls.
+\usepackage{balance} % colunas balanceadas
+% \usepackage[titles]{tocloft}
+%\usepackage[utf8]{inputenc}
+
+% Cores
+\definecolor{Black}{cmyk}{1, 1, 1, 1} % Preto puro
+\definecolor{Cinza}{cmyk}{0, 0, 0, 0.85}
+\definecolor{AzulMarinho}{cmyk}{1, 1, 0, 0.5}
+\definecolor{Azul}{cmyk}{1, 1, 0, 0.3}
+%\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.2} % Original
+%\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.25} % Opção 1
+\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.3} % Em uso
+\definecolor{Verde}{cmyk}{1, 0, 1, 0.55} % Original
+%\definecolor{Verde}{cmyk}{1, 0, 1, 0.3} % Opção 1
+%\definecolor{Magenta}{cmyk}{0, 0.95, 0.49, 0.05} % Original
+\definecolor{Magenta}{cmyk}{0, 1, 0.5, 0.05} % Original
+%\definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.37} % Original
+\definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.5} % Original
+% \definecolor{Laranja}{cmyk}{0, 0.6, 1, 0} % Em uso
+\definecolor{Laranja}{cmyk}{0, 0.65, 1, 0.2}
+% \definecolor{Marrom}{cmyk}{0, 0.7, 0.9, 0.5} % Original
+%\definecolor{Marrom}{cmyk}{0, 0.65, 0.9, 0.61} % Em uso
+\definecolor{Marrom}{cmyk}{0, 0.65, 0.95, 0.7} % Opção 1
+\definecolor{Verse}{cmyk}{0, 1, 0.65, 0.25} % Cor do versículo - Púrpura
+%\definecolor{Verse}{cmyk}{0.5, 0.5, 0.5, 0.7} % Cor do versículo - Cinza
+\definecolor{Amarelo}{cmyk}{0, 0.2, 1, 0.1}
+\definecolor{Oliva}{cmyk}{0, 0, 1, 0.5}
+
+\newcommand{\Black}{\color{Black}}
+\newcommand{\TextColor}{\Black}
+\newcommand{\IntroColor}{\color{AzulMarinho}}
+\newcommand{\OliveColor}{\color{Oliva}}
+\newcommand{\WJ}{\color{VermelhoVivo}}
+\newcommand{\Red}{\WJ}
+\newcommand{\Blue}{\IntroColor}
+\newcommand{\LightBlue}{\color{Azul}}
+\newcommand{\Green}{\color{Verde}}
+\newcommand{\YellowColor}{\color{Amarelo}}
+\newcommand{\VerseColor}{\color{Verse}}
+
+% Cores da legenda
+\newcommand{\blue}[1]{{\color{Azul}#1}}
+\newcommand{\red}[1]{{\color{VermelhoVivo}#1}}
+\newcommand{\green}[1]{{\color{Verde}#1}}
+\newcommand{\magenta}[1]{{\color{Magenta}#1}}
+\newcommand{\purple}[1]{{\color{Roxo}#1}}
+\newcommand{\orange}[1]{{\color{Laranja}#1}}
+\newcommand{\brown}[1]{{\color{Marrom}#1}}
+
+% Fonte normal
+\newcommand{\NormalFont}{\normalfont}
+\NormalFont
+\newcommand{\SmallFont}{\small}
+
