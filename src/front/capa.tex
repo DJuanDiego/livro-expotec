@@ -1,0 +1,51 @@
+\pagestyle{empty}
+
+\begin{tikzpicture}[remember picture, overlay]
+
+  % Imagem de fundo
+  %\node[inner sep=0pt] at (current page.center) {
+\node[anchor=north, inner sep=0pt] at (current page.north) {
+    \includegraphics[
+%      width=\paperwidth,
+%      height=\paperheight
+	scale=2
+    ]{../img/capa.jpeg}
+  };
+
+  % Faixa escura para dar contraste ao texto
+  \fill[black, opacity=0.85]
+    (current page.south west) rectangle
+    ([yshift=12cm]current page.south east);
+
+  % Título
+  \node[
+    anchor=south west,
+    text=white,
+    align=left,
+    text width=125mm
+  ] at ([xshift=12mm,yshift=92mm]current page.south west) {
+    {\fontsize{32}{37}\selectfont\bfseries A revolução dos bichos}
+  };
+
+  % Autor
+  \node[
+    anchor=south west,
+    text=white,
+    align=left
+  ] at ([xshift=12mm,yshift=78mm]current page.south west) {
+    {\Large George Orwell}
+  };
+
+  % Versão, editora ou projeto
+  \node[
+    anchor=south west,
+    text=white,
+    align=left
+  ] at ([xshift=12mm,yshift=14mm]current page.south west) {
+    {\normal Oficina Expotec 2026 \quad | \quad IFRN -- Campus Lajes}
+  };
+
+\end{tikzpicture}
+
+\clearpage
+

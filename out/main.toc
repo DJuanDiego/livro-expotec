@@ -1,3 +1,5 @@
 \babel@toc {brazilian}{}\relax 
+\contentsline {chapter}{Agradecimentos}{iii}{chapter*.2}%
+\contentsline {chapter}{Colaboradores}{v}{chapter*.4}%
 \changetocdepth {0}
-\contentsline {chapter}{I}{1}{chapter*.4}%
+\contentsline {chapter}{I}{1}{chapter*.8}%
