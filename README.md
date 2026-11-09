@@ -3,7 +3,7 @@ Projeto de livro colaborativo realizado em oficina na IV Expotec do IFRN Campus 
 
 <!----->
 
-<img src="figures/capa.avif" width="90%"></img>
+<img src="img/capa.avif" width="90%"></img>
 
 ## Projeto
 
@@ -58,8 +58,8 @@ Classic colored book illustration of a scene from Animal Farm:[Insira a descriç
 > Classic book illustration of a scene from *Animal Farm*: [INSERIR A DESCRIÇÃO DA CENA DO TRECHO AQUI]. Vintage editorial style, woodcut engraving style, detailed ink lines, dramatic lighting, textured paper background, landscape composition, widescreen view, 1280x851 resolution, --ar 3:2.
 
 ## Propósito
-
+Estimular o aprendizado de novas ferramentas, a absorção de conteúdos programáticos relacionados aos já abordados no curso técnico de informática, além do desfrute de um bom livro.
 
 ## Resultado esperado
-A expectativa é de que, além da geração do livro, cada participante possa desenvolver habilidades no LaTeX, no Github e/ou na programação de modo geral. Esperamos que esta oficina possa ajudar a expandir os horizontes e explorar e
+A expectativa é de que, além da geração do livro, cada participante possa desenvolver habilidades no LaTeX, no Github e/ou na programação de modo geral. Esperamos que esta oficina possa ajudar a expandir os horizontes e estimular a criatividade de cada participante.
 
