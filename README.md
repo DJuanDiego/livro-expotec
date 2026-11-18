@@ -40,8 +40,8 @@ Classic colored book illustration of a scene from Animal Farm: [INSIRA A DESCRI�
 
 1. **Abrir o arquivo do capítulo:** Utilizando o editor de LaTeX escolhido para a oficina, abra o arquivo de texto vazio correspondente ao capítulo de vocês (ex.: `src/main/02.tex`).
 2. **Inserir o texto:** Cole o texto já revisado e limpo dentro do documento, logo abaixo da marcação que define o título do capítulo.
-3. **Adicionar a imagem:** No local exato onde a cena ocorre na história, utilize a estrutura básica de inserção de figuras do LaTeX para chamar a imagem que você salvou na pasta, não esquecendo de adicionar uma legenda descritiva logo abaixo dela.
-4. **Revisar caracteres especiais:** Lembre-se de colocar uma barra invertida (`\`) antes de símbolos do dia a dia como `%`, `$`, `&` e `#`. O LaTeX interpreta esses símbolos como funções matemáticas ou de formatação, e a barra diz ao programa para tratá-los apenas como texto comum.
+3. **Revisar caracteres especiais:** Lembre-se de colocar uma barra invertida (`\`) antes de símbolos do dia a dia como `%`, `$`, `&` e `#`. O LaTeX interpreta esses símbolos como funções matemáticas ou de formatação, e a barra diz ao programa para tratá-los apenas como texto comum.
+4. **Adicionar a imagem:** No local exato onde a cena ocorre na história, utilize a estrutura básica de inserção de figuras do LaTeX para chamar a imagem que você salvou na pasta, não esquecendo de adicionar uma legenda descritiva logo abaixo dela.
 
 
 ### Fase 4: Inserindo os Dados dos Colaboradores
@@ -59,7 +59,9 @@ Classic colored book illustration of a scene from Animal Farm: [INSIRA A DESCRI�
 
 
 ## Propósito
-Estimular o aprendizado de novas ferramentas, a absorção de conteúdos programáticos relacionados aos já abordados no curso técnico de informática, além do desfrute de um bom livro.
+Demonstrar em um projeto didático e lúdico como uma atividade pode ser desenvolvida de forma colaborativa e manter, apesar disto, um padrão estabelecido de homogeneidade, progresso e prazo.
+
+Além, é claro, de estimular o aprendizado de novas ferramentas, a absorção de conteúdos programáticos relacionados aos já abordados no curso técnico de informática e o desfrute de um bom livro.
 
 ## Resultado esperado
 A expectativa é de que, além da geração do livro, cada participante possa desenvolver habilidades no LaTeX, no Github e/ou na programação de modo geral. Esperamos que esta oficina possa ajudar a expandir os horizontes e estimular a criatividade de cada participante.
