@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Debian)  (format=lualatex 2026.10.27)  6 NOV 2026 16:00
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Debian)  (format=lualatex 2026.10.27)  18 NOV 2026 10:54
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2712,11 +2712,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `NewCMMono10-Book.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) (./src/main/01.tex)
-(./src/main/02.tex) (./src/main/03.tex) (./src/main/04.tex) (./src/main/05.tex) (./src/main/06.tex) (./src/main/07.tex) (./src/main/08.tex) (./src/main/09.tex) (./src/main/10.tex) [1
+) (./src/main/01.tex [1
 
 
 <./img/example.png>]
+<img/CAP 01.jpg, id=76, 304.4976pt x 204.2832pt>
+File: img/CAP 01.jpg Graphic file (type jpg)
+<use img/CAP 01.jpg>
+Package luatex.def Info: img/CAP 01.jpg  used on input line 10.
+(luatex.def)             Requested size: 365.3953pt x 245.1386pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+ [3<./img/cap 01.jpg>] [4]) (./src/main/02.tex) (./src/main/03.tex [5]
+<img/imagemCap3.jpg, id=117, 304.4976pt x 204.2832pt>
+File: img/imagemCap3.jpg Graphic file (type jpg)
+<use img/imagemCap3.jpg>
+Package luatex.def Info: img/imagemCap3.jpg  used on input line 23.
+(luatex.def)             Requested size: 365.3953pt x 245.1386pt.
+ [6<./img/imagemCap3.jpg>] [7] [8]) (./src/main/04.tex) (./src/main/05.tex) (./
+src/main/06.tex)
+(./src/main/07.tex) (./src/main/08.tex) (./src/main/09.tex) (./src/main/10.tex) [9]
 \tf@toc=\write7
 
 \openout7 = main.toc
@@ -2730,24 +2750,25 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41156 strings out of 475635
+ 41240 strings out of 475635
  125061,1977958 words of node,token memory allocated
- 1346 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 10 glue, 4 kern, 1 penalty, 2 glyph, 3
+ 1353 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 10 glue, 4 kern, 1 penalty, 3 glyph, 3
 1 attribute, 190 glue_spec, 16 attribute_list, 3 write, 1 pdf_action nodes
-   avail lists: 1:8,2:576,3:198,4:114,5:1312,6:42,7:4183,8:61,9:271,10:8,11:375
- 63148 multiletter control sequences out of 65536+600000
- 171 fonts using 163694247 bytes
- 112i,11n,131p,1198b,3131s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:8,2:843,3:198,4:114,5:3795,6:66,7:11328,8:61,9:412,10:23,11:11
+54
+ 63194 multiletter control sequences out of 65536+600000
+ 172 fonts using 165850735 bytes
+ 112i,14n,131p,2150b,3131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMono
 10-Book.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freefont/Fr
 eeSerifItalic.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freef
 ont/FreeSerif.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freef
 ont/FreeSerifBold.otf>
-Output written on main.pdf (7 pages, 1668315 bytes).
+Output written on main.pdf (15 pages, 3745013 bytes).
 
-PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 1048576)
+PDF statistics: 168 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 1048576)
  40 words of extra memory for PDF output out of 10000 (max. 100000000)
 
